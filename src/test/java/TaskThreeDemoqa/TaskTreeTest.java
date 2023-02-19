@@ -13,7 +13,7 @@ import org.testng.Assert;
 import java.time.Duration;
 
 public class TaskTreeTest extends BaseTest {
-    
+
     @Test
     public void createTicket() throws InterruptedException {
         GoToUrl("https://demoqa.com/automation-practice-form");
